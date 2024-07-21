@@ -11,6 +11,14 @@
   font-family: "Open Sans", sans-serif;
 }
 
+h1{
+  font-family: "Montserrat", sans-serif;
+}
+h2{
+  font-family: "Montserrat", sans-serif;
+}
+
+
 /* Navbar Start */
 .nav {
   display: flex;
@@ -245,3 +253,58 @@
   
 
 }
+/* About section end */
+
+/* Role section start */
+.role{
+  width: 90%;
+  margin-top: 65px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  margin-left: 80px;
+  padding: 20px;
+  box-shadow: 7px 5px 10px 8px #888888;
+  
+}
+
+.rolestag{
+  display: flex;
+  gap: 40px;
+  padding-top: 10px;
+}
+
+.roletext{
+  border-bottom: 2px solid var(--primary);
+}
+@media (max-width: 600px){
+  .role{
+    margin-top: 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    margin-left: 5vw;
+    padding: 20px;
+    box-shadow: 7px 5px 10px 8px #888888;
+    text-align: center;
+    
+  }
+  .rolestag{
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+    align-items: center;
+    
+  }
+  
+  .roletext{
+    border-bottom: 2px solid var(--primary);
+    align-items: center;
+    font-size: 3vw;
+  }
+}
+/* Role section end */
