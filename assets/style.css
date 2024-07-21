@@ -11,13 +11,12 @@
   font-family: "Open Sans", sans-serif;
 }
 
-h1{
+h1 {
   font-family: "Montserrat", sans-serif;
 }
-h2{
+h2 {
   font-family: "Montserrat", sans-serif;
 }
-
 
 /* Navbar Start */
 .nav {
@@ -189,7 +188,6 @@ h2{
     height: 50vh;
     width: 100%;
     object-fit: cover;
-    
   }
 
   .about-info {
@@ -205,14 +203,14 @@ h2{
     letter-spacing: -1px;
     font-family: "Montserrat", sans-serif;
   }
-  
+
   .about-info h2 {
     font-size: 4vw;
     font-weight: 600;
     padding-top: 10px;
     font-family: "Montserrat", sans-serif;
   }
-  
+
   .about-info p {
     padding-top: 20px;
     font-weight: 500;
@@ -225,7 +223,7 @@ h2{
     justify-content: space-evenly;
     padding-top: 30px;
   }
-  
+
   .button-1 {
     background-color: #0948b4;
     color: var(--secondary);
@@ -234,11 +232,11 @@ h2{
     border-radius: 10px;
     cursor: pointer;
   }
-  
+
   .button-1:hover {
     background-color: #07327b;
   }
-  
+
   .button-2 {
     background-color: var(--secondary);
     border-color: #0948b4;
@@ -246,17 +244,16 @@ h2{
     border-radius: 10px;
     cursor: pointer;
   }
-  
+
   .button-2:hover {
     background-color: rgb(193, 193, 193);
   }
-  
-
 }
+
 /* About section end */
 
 /* Role section start */
-.role{
+.role {
   width: 90%;
   margin-top: 65px;
   display: flex;
@@ -267,20 +264,19 @@ h2{
   margin-left: 80px;
   padding: 20px;
   box-shadow: 7px 5px 10px 8px #888888;
-  
 }
 
-.rolestag{
+.rolestag {
   display: flex;
   gap: 40px;
   padding-top: 10px;
 }
 
-.roletext{
+.roletext {
   border-bottom: 2px solid var(--primary);
 }
-@media (max-width: 600px){
-  .role{
+@media (max-width: 600px) {
+  .role {
     margin-top: 0%;
     display: flex;
     align-items: center;
@@ -291,17 +287,15 @@ h2{
     padding: 20px;
     box-shadow: 7px 5px 10px 8px #888888;
     text-align: center;
-    
   }
-  .rolestag{
+  .rolestag {
     display: flex;
     gap: 40px;
     padding-top: 10px;
     align-items: center;
-    
   }
-  
-  .roletext{
+
+  .roletext {
     border-bottom: 2px solid var(--primary);
     align-items: center;
     font-size: 3vw;
