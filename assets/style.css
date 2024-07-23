@@ -305,11 +305,11 @@ h2 {
 /* Role section end */
 
 /* Expertise Section Start */
-.Expertise-section{
+.Expertise-section {
   margin-top: 80px;
   margin-left: 80px;
 }
-.expertise-part2{
+.expertise-part2 {
   display: flex;
   align-items: center;
   padding-top: 20px;
@@ -320,17 +320,46 @@ h2 {
   border-radius: 10px;
   gap: 20px;
 }
-.exp-part1 img{
+.exp-part1 img {
   height: 150px;
   width: 200px;
   object-fit: cover;
 }
 
-.exp-part2 h2{
+.exp-part2 h2 {
   padding-bottom: 6px;
   letter-spacing: -1px;
   font-weight: 900;
 }
 
-
 /* Expertise Section End */
+
+/* Tech Skills Section Start */
+
+.tech-skills {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.tech-skills-part2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#tech-skills-heading {
+  font-weight: 900;
+}
+.tech-skills-logo {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+.tech-skills-logo img {
+  height: 80px;
+  width: 80px;
+}
+.tech-skills-logo h5 {
+  font-size: 2vw;
+  font-weight: 800;
+  padding-top: 5px;
+}
+/* Tech Skills Section End */
